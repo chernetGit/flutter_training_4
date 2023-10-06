@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_training_4/animatedModalBarrier.widgets0013.dart';
-import 'package:flutter_training_4/animatedOpacity_widget014.dart';
-import 'package:flutter_training_4/animatedPadding_widget015.dart';
-import 'package:flutter_training_4/animatedPhysicalModel_widget016.dart';
-import 'package:flutter_training_4/animatedPositioned_widget017.dart';
+// import 'animatedModalBarrier.widgets0013.dart';
+// import 'animatedOpacity_widget014.dart';
+// import 'animatedPadding_widget015.dart';
+// import 'animatedPhysicalModel_widget016.dart';
+// import 'animatedPositioned_widget017.dart';
+// import 'animatedRotation_widget018.dart';
+// import 'animatedSize_widget019.dart';
+// import 'animatedSwitcher_widget020.dart';
+// import 'appBar_widget.dart';
+// import 'aspectRatio_widget022.dart';
+// import 'autocomplete_widget023.dart';
+// import 'backendFilter_widget024.dart';
+// import 'banner_widget025.dart';
+// import 'bottomNavigationBar_widget028.dart';
+// import 'baseline_widget026.dart';
+// import 'bottomSheet_widget029.dart';
+import 'builder_widget030.dart';
+// import 'blockSemantics_widget027.dart';
 
 // import 'animatedList_widget012.dart';
 
@@ -43,11 +56,8 @@ class _Widget001 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Dialog'),
-      ),
-      body: const Widget017(),
+    return const Scaffold(
+      body: Widget030(),
     );
   }
 }
